@@ -1,0 +1,10 @@
+services:
+  - type: web
+    name: task-tracker
+    env: java
+    buildCommand: ./mvnw clean install
+    startCommand: java -jar target/task-tracker-0.0.1-SNAPSHOT.jar
+    plan: free
+    envVars:
+      - key: JAVA_VERSION
+        value: 17
