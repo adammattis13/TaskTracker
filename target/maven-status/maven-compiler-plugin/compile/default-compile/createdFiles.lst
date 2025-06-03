@@ -1,0 +1,4 @@
+com/example/tasktracker/TaskTrackerApplication.class
+com/example/tasktracker/repository/TaskRepository.class
+com/example/tasktracker/model/Task.class
+com/example/tasktracker/controller/TaskController.class
